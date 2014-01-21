@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000F9A03188E3F4600D4BF96 /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000F9A02188E3F4600D4BF96 /* TimelineViewController.m */; };
+		000F9A06188E46DF00D4BF96 /* FriendListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000F9A05188E46DF00D4BF96 /* FriendListViewController.m */; };
+		000F9A08188E4DFE00D4BF96 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000F9A07188E4DFE00D4BF96 /* Accounts.framework */; };
+		000F9A0A188E4E0400D4BF96 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000F9A09188E4E0400D4BF96 /* Social.framework */; };
 		0030B83E188E37460055AB0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0030B83D188E37460055AB0B /* Foundation.framework */; };
 		0030B840188E37460055AB0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0030B83F188E37460055AB0B /* CoreGraphics.framework */; };
 		0030B842188E37460055AB0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0030B841188E37460055AB0B /* UIKit.framework */; };
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000F9A01188E3F4600D4BF96 /* TimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineViewController.h; sourceTree = "<group>"; };
+		000F9A02188E3F4600D4BF96 /* TimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineViewController.m; sourceTree = "<group>"; };
+		000F9A04188E46DF00D4BF96 /* FriendListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendListViewController.h; sourceTree = "<group>"; };
+		000F9A05188E46DF00D4BF96 /* FriendListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendListViewController.m; sourceTree = "<group>"; };
+		000F9A07188E4DFE00D4BF96 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		000F9A09188E4E0400D4BF96 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		0030B83A188E37460055AB0B /* SocialExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0030B83D188E37460055AB0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0030B83F188E37460055AB0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000F9A0A188E4E0400D4BF96 /* Social.framework in Frameworks */,
+				000F9A08188E4DFE00D4BF96 /* Accounts.framework in Frameworks */,
 				0030B840188E37460055AB0B /* CoreGraphics.framework in Frameworks */,
 				0030B842188E37460055AB0B /* UIKit.framework in Frameworks */,
 				0030B83E188E37460055AB0B /* Foundation.framework in Frameworks */,
@@ -101,6 +113,8 @@
 		0030B83C188E37460055AB0B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				000F9A09188E4E0400D4BF96 /* Social.framework */,
+				000F9A07188E4DFE00D4BF96 /* Accounts.framework */,
 				0030B83D188E37460055AB0B /* Foundation.framework */,
 				0030B83F188E37460055AB0B /* CoreGraphics.framework */,
 				0030B841188E37460055AB0B /* UIKit.framework */,
@@ -119,6 +133,10 @@
 				0030B853188E37470055AB0B /* ViewController.m */,
 				0030B855188E37470055AB0B /* Images.xcassets */,
 				0030B844188E37460055AB0B /* Supporting Files */,
+				000F9A01188E3F4600D4BF96 /* TimelineViewController.h */,
+				000F9A02188E3F4600D4BF96 /* TimelineViewController.m */,
+				000F9A04188E46DF00D4BF96 /* FriendListViewController.h */,
+				000F9A05188E46DF00D4BF96 /* FriendListViewController.m */,
 			);
 			path = SocialExample;
 			sourceTree = "<group>";
@@ -250,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0030B854188E37470055AB0B /* ViewController.m in Sources */,
+				000F9A06188E46DF00D4BF96 /* FriendListViewController.m in Sources */,
+				000F9A03188E3F4600D4BF96 /* TimelineViewController.m in Sources */,
 				0030B84E188E37470055AB0B /* AppDelegate.m in Sources */,
 				0030B84A188E37470055AB0B /* main.m in Sources */,
 			);
@@ -460,6 +480,7 @@
 				0030B86E188E37470055AB0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0030B86F188E37470055AB0B /* Build configuration list for PBXNativeTarget "SocialExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +489,7 @@
 				0030B871188E37470055AB0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
